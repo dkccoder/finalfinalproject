@@ -12,3 +12,143 @@ ul,ol{list-style: none;}
     width: 100%;
     height: 693px;
 }
+.content-box {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.home-menu {
+    width: 1124px;
+    margin: 26px auto 0;
+    overflow: hidden;
+    padding-top: 0;
+}
+.home-menu a {
+    display: block;
+    float: left;
+    margin: 6px 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.06);
+    overflow: hidden;
+}
+.home-menu img {
+    width: 200px;
+    height: 100px;
+}
+.home-colorful {
+    margin-top: 5px;
+}
+.home-module {
+    padding-top: 50px;
+}
+.home-module-title {
+    font-size: 26px;
+    color: #724228;
+    line-height: 36px;
+    width: 1100px;
+    margin: 0 auto 20px;
+}
+.home-module-title span {
+    font-size: 14px;
+    color: #8E5D43;
+    display: inline-block;
+    margin-left: 6px;
+}
+.home-colorful .colorful-top-banner {
+    width: 1100px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding-top: 100px;
+}
+.home-colorful .colorful-top-banner img {
+    width: 100%;
+    height: 100%;
+}
+.home-colorful .color-product-list {
+    position: relative;
+}
+.home-colorful .color-product-list .list-box {
+    height: 365px;
+}
+.home-colorful .list-box {
+    width: 1116px;
+    overflow: hidden;
+    margin: 20px auto 0;
+    position: relative;
+}
+.home-colorful .list-box ul {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home-colorful .color-product-list .list-box li {
+    position: relative;
+    height: 365px;
+}
+.home-colorful .list-box li {
+    float: left;
+    width: 263px;
+    margin: 0 8px;
+}
+.home-colorful .list-box li img {
+    width: 263px;
+    height: 230px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+.home-colorful .list-box li h6 {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 22px;
+    color: #000;
+}
+.home-colorful .list-box li p {
+    font-size: 14px;
+    color: #616161;
+    line-height: 24px;
+}
+.home-colorful .list-box li h6, .home-colorful .list-box li p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.home-colorful .list-box li .tag-list {
+    font-size: 0;
+    width: 263px;
+    height: 35px;
+    overflow: hidden;
+}
+.home-colorful .list-box li .tag-list a {
+    display: inline-block;
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    padding: 0 6px 0 8px;
+    color: #D5BFA7;
+    margin: 8px 3px;
+    font-size: 12px;
+}
+.home-colorful .list-box li .cart-info {
+    border-top: 1px dashed #D5BFA7;
+    height: 37px;
+    color: #b0986f;
+    margin-top: 6px;
+    padding-top: 14px;
+}
+.home-colorful .list-box li .spec {
+    display: inline-block;
+    line-height: 20px;
+    color: #BB9772;
+    font-size: 14px;
+}
+.home-colorful .list-box li .add-cart {
+    float: right;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    background: #643E28;
+    color: #fff;
+    padding: 0 10px;
+}
