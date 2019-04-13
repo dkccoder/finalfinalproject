@@ -7,6 +7,10 @@ require(["require.config"],function(){
             init(){
                 new ShopItem($("#catyListContainer"),url.baseUrl + "/list/get");
                 addtocart($("#catyListContainer"),".pro-list-addcart",null,true);
+                this.liststyle();
+            }
+            liststyle(){
+                $(".cat-list dd").eq(location.search.slice(6)).prop("class","active");
             }
         }
        

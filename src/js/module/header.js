@@ -49,6 +49,7 @@ define(["jquery","cookie"],function($,cookie){
                 $(".header-cart").click((e)=>{
                     e.preventDefault();
                     alert("请先登录");
+                    location.href = "/html/login.html";
                 })
             }
         }
