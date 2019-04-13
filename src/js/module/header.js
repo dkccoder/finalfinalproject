@@ -37,11 +37,19 @@ define(["jquery","cookie"],function($,cookie){
                 });
             })
         }
+        islogin(){
+            
+        }
         login(){
             if($.cookie('username') != undefined){
                 $(".not-login").prop("style","display:none");
                 $(".header-user").prop("style","display:inline-block");
                 $(".userName").text($.cookie('username'));
+            }else{
+                $(".header-cart").click((e)=>{
+                    e.preventDefault();
+                    alert("请先登录");
+                })
             }
         }
         loginout(){
@@ -49,6 +57,7 @@ define(["jquery","cookie"],function($,cookie){
                 if(confirm("确定要退出吗？")){
                     $.cookie('username','',{expires:-1,path:'/'});
                     this.init();
+                    location.href = "/";
                 }
             })
         }

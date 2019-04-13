@@ -13,7 +13,7 @@
 	while($row = mysql_fetch_assoc($res)){
 		array_push($arr,$row);
 	}
-	if($res >= 1){
+	if(mysql_num_rows($res) >= 1){
 		$resArr = array(
 			"res_code" => 1,
 			"res_message" => "登陆成功",

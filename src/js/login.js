@@ -37,6 +37,7 @@ require(["require.config"],()=>{
                                 function (res) {
                                     telephone = undefined,email = undefined;
                                     if(res.res_code === 1){
+                                        console.log(res.res_body);
                                         $.cookie("username",res.res_body.data[0].username,{expires:3,path:'/'});
                                         alert(res.res_message+"即将跳转首页");
                                         location.href = "/index.html";
