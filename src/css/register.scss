@@ -1,0 +1,131 @@
+@import "module/style";
+@import "module/header";
+@import "module/footer";
+.login-background {
+    background: url(/img/background.jpg) no-repeat top center;
+}
+.content-box {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    min-height: 367px;
+}
+.form-login-box {
+    position: absolute;
+    width: 302px;
+    top: 114px;
+    right: 0;
+    padding: 28px 42px;
+    border: 1px #E9E9E9 solid;
+    background: #fff;
+}
+.login-regi-title {
+    height: 25px;
+    overflow: hidden;
+}
+.login-regi-title h2.regi-user {
+    width: 100%;
+}
+.login-regi-title h2.active {
+    color: #482618;
+}
+.login-regi-title h2 {
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+}
+.form-content {
+    padding-top: 15px;
+}
+.reister-user li {
+    position: relative;
+}
+.form-content li {
+    margin: 10px 0;
+}
+.form-content li input {
+    width: 290px;
+    padding: 0 5px;
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    outline: none;
+    color: #442818;
+    line-height: 38px;
+}
+.reister-user li i {
+    left: 280px;
+}
+.reister-user li i, .form-content li.login-img-text i {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background: url(/img/icon.png) no-repeat;
+    background-position: -61px -44px;
+    background-size: 310px 120px;
+    top: 12px;
+    display: none;
+}
+.reister-user li i.weak {
+    display: block;
+    background-position: -80px -44px;
+}
+.reister-user li i.moderate {
+    display: block;
+    background-position: -97px -44px;
+}
+.reister-user li i.strong {
+    display: block;
+    background-position: -114px -44px;
+}
+.form-content li.err-text span {
+    line-height: 22px;
+    color: #FF714D;
+}
+.form-content li.err-text span i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    background: url(/img/icon.png) no-repeat;
+    background-position: -41px -44px;
+    background-size: 310px 120px;
+    position: static;
+}
+.form-content li .login-button {
+    display: block;
+    background: #442818;
+    border-radius: 2px;
+    height: 48px;
+    width: 302px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+.reading-protocol {
+    margin-top: 15px;
+    height: 18px;
+    line-height: 18px;
+    padding-bottom: 40px;
+    color: #744F3A;
+}
+.reading-protocol label {
+    cursor: pointer;
+    user-select: none;
+}
+.reading-protocol input {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.reading-protocol a {
+    color: #2a99fa;
+}

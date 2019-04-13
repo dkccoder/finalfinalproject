@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>简陋的首页</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="/lib/swipercss/swiper.min.css">
+	</head>
+
+	<body>
+		<div id="header-container"></div>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="#"><img src="/img/lunbo1.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="#"><img src="/img/lunbo2.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="#"><img src="/img/lunbo3.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="#"><img src="/img/lunbo4.jpg"></a>
+					</div>
+					<div class="swiper-slide">
+						<a href="#"><img src="/img/lunbo5.png"></a>
+					</div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+			
+			<!-- 如果需要导航按钮 -->
+			<!-- <div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div> -->
+			
+			<!-- 如果需要滚动条 -->
+			<!--<div class="swiper-scrollbar"></div>-->
+	</div>
+
+		<footer id="footer-container"></footer>
+
+		<!-- siwper必须在require之前引入 -->
+		<script src="/lib/swiperjs/swiper.min.js"></script>
+		<script src="/js/swiper.js"></script>
+		<script type="text/javascript" src="/lib/requirejs/require.js" data-main="/js/index.js"></script>
+		
+		
+
+	</body>
+
+</html>

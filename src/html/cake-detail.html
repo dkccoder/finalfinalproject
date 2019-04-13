@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/css/cake-detail.css" />
+    <link rel="stylesheet" type="text/css" href="/lib/swipercss/swiper.min.css">
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <!-- banner图 -->
+    <div class="details-banner">
+        <div class="left-img-box view_bd">
+            <img class="zoom-img" src="/img/detail-banner1.jpg" data-zoom-image="/img/detail-banner1.jpg" />
+        </div>
+        <div class="right-list view_thumbs" id="gal1">
+            <ul class="bannerImgList view-ul">
+                <li class="active current">
+                    <a href="#" data-image="/img/detail-banner1.jpg" data-zoom-image="/img/detail-banner1.jpg">
+                        <img class="s" src="/img/detail-banner1.jpg" /></a>
+                </li>
+                <li>
+                    <a href="#" data-image="/img/detail-banner2.jpg" data-zoom-image="/img/detail-banner2.jpg">
+                        <img class="s" src="/img/detail-banner2.jpg" /></a>
+                </li>
+                <li>
+                    <a href="#" data-image="/img/detail-banner3.jpg" data-zoom-image="/img/detail-banner3.jpg">
+                        <img class="s" src="/img/detail-banner3.jpg" /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content-box">
+
+        <div class="pro-details-cont">
+
+        </div>
+
+
+    </div>
+    <script type="text/html" id="detail-template">
+        <div class="details-content-left">
+            <h1 class="pro-details-title">{{etitle+title}}</h1>
+            <div class="sub-title">
+                <p>{{p}}</p>
+            </div>
+            <div class="pro-details-label">
+                <a href="javascript:;" target="_blank">情侣 &gt;</a>
+                <a href="javascript:;" target="_blank">人气 &gt;</a>
+                <a href="javascript:;" target="_blank">生日 &gt;</a>
+                <a href="javascript:;" target="_blank">结婚 &gt;</a>
+                <a href="javascript:;" target="_blank">相识 &gt;</a>
+                <a href="javascript:;" target="_blank">情人节 &gt;</a>
+            </div>
+            <ul class="details-constituent">
+                <li>
+
+                    <img src="/img/beer.png" alt="爱尔兰百利甜酒">
+                    <span>爱尔兰百利甜酒</span>
+                </li>
+                <li>
+
+                    <img src="/img/flower.png" alt="当日空运云南玫瑰">
+                    <span>当日空运云南玫瑰</span>
+                </li>
+            </ul>
+            <div class="pro-details-explain">
+
+                {{message1}}<br>
+                {{message2}}<br>
+                *{{message3}}<br>
+                <font color="red">* {{tips1}}</font><br>
+                <font color="red">*{{tips2}}</font><br>
+            </div>
+            <ul class="details-distribution">
+                <li class="distribution-exist"><i></i><span>保鲜条件：</span>0-4℃保藏10小时，5℃食用为佳</li>
+                <li class="distribution-sweet" data-sweet="4">
+                    <i></i>
+                    <span style="margin-left:5px;">参考甜度：</span>
+                    <span class="sweet-icon">
+                        <i class="active"></i>
+                        <i class="active"></i>
+                        <i class="active"></i>
+                        <i class="active"></i>
+                        <i></i>
+                    </span>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="details-content-right">
+            <p class="details-price">¥<span>{{ price }}</span>/2.0磅</p>
+            <div class="details-Specifications">
+                <div class="outer-box">
+                    <div class="details-img-box"><img src="/img/cake-modal.jpg" class="details-img">
+                        <ul class="details-options fl-left">
+                            <li class="details-options-size"><i></i>约17.5x17.5</li>
+                            <li class="details-options-unmber"><i></i>适合7-8人分享</li>
+                            <li class="details-options-laid"><i></i>含10套餐具（蜡烛需单独订购）</li>
+                            <li class="details-options-time"><i></i>最早明天 09:30配送</li>
+                        </ul>
+                    </div>
+                    <!-- 选择蛋糕尺寸 -->
+                    <dl class="details-Specifications-size">
+                        <dt>商品规格</dt>
+                        <dd>
+                            <ul>
+                                <li><a data-productid="365">1.0磅<i></i></a></li>
+                                <li><a data-productid="371">1.5磅<i></i></a></li>
+                                <li><a class="active" data-productid="377">2.0磅<i></i></a></li>
+                                <li><a data-productid="383">3.0磅<i></i></a></li>
+                                <li><a data-productid="389">5.0磅<i></i></a></li>
+                                <li><a data-productid="">更多磅数<i></i></a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <!-- 换购商品 -->
+                    <dl class="details-markup">
+                        <dt>换购商品</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a title="购磅数蛋糕，享39元换购【丹麦组合】"><i></i>
+                                        <img src="/img/change1.jpg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Forever21（生日包"><i></i>
+                                        <img src="/img/change2.jpg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+                <!-- 购物按钮 -->
+                <div class="details-button">
+                    <button href="javascript:void(0);" class="details-but-buy">立即购买</button>
+                    <button href="javascript:void(0);" class="details-but-cart detailsAddCart">加入购物车 </button>
+                </div>
+
+            </div>
+        </div>
+    </script>
+
+    <script type="text/html" id="banner-template">
+
+    </script>
+
+    <footer id="footer-container"></footer>
+
+    <!-- siwper必须在require之前引入 -->
+    <!-- <script src="/lib/swiperjs/swiper.min.js"></script>
+    <script src="/js/swiper.js"></script> -->
+    <script type="text/javascript" src="/lib/requirejs/require.js" data-main="/js/cake-detail.js"></script>
+
+
+
+</body>
+
+</html>

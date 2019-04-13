@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <div class="login-background" style="height: 833px;">
+        <!-- 中间内容 -->
+        <div class="content-box">
+            <div class="form-login-box" style="right: 100px;">
+                <div class="login-regi-title">
+                    <h2 class="active" data-id="form-content">账号密码登录</h2>
+
+                    <h2 data-id="login-content">手机验证码登录</h2>
+                </div>
+                <!-- 账号密码登录 -->
+                <div class="form-content" id="form-content">
+                    <form id="login-form">
+                        <ul>
+                            <li>
+                                <input type="text" name="loginName" placeholder="请输入手机号或邮箱" id="loginName">
+                            </li>
+                            <li>
+                                <input type="password" name="password" maxlength="32" placeholder="输入密码" id="password">
+                            </li>
+                            <li class="err-text"><span></span></li>
+                            <li><input type="submit" class="login-button" value="登录"></li>
+                        </ul>
+                        <div class="login-remember">
+                            <label><input type="checkbox" name="rememberMe" id="rememberMe" form="fast-login login-form"
+                                    checked="checked">&nbsp;记住账号</label>
+                            <a href="/html/register.html">去注册</a>
+                            <a href="javascript:void(0);">忘记密码</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer-container"></footer>
+    <script type="text/javascript" src="/lib/requirejs/require.js" data-main="/js/login.js"></script>
+
+
+
+</body>
+
+</html>

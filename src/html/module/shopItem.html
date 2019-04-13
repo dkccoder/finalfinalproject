@@ -1,0 +1,25 @@
+<script type="text/html" id="shop-list">
+    <!-- 需要循环遍历才用each -->
+    {{each list item}}
+    <li>
+        <div class="pro-list-su">
+            <a href="/html/cake-detail.html?id={{item.id}}" target="_blank" class="goods-list">
+                <img src="{{ item.img }}" alt="百利甜情人" style="display: inline;">
+                <h3>{{ item.title }}</h3>
+                <span>￥<b style="font-weight:normal">{{item.price}}</b>.00/2.0磅</span>
+            </a>
+            <div class="label-entrance">
+                <a href="javascript:;">情侣 &gt;</a>
+                <a href="javascript:;">人气&gt;</a>
+                <a href="javascript:;">生日 &gt;</a>
+            </div>
+            <a href="javascript:;" class="pro-list-addcart"
+                data-id="{{ item.id }}">
+                <i></i>
+                加入购物车
+            </a>
+        </div>
+        <div class="pro-specifications"></div>
+    </li>
+    {{/each}}
+</script>

@@ -1,0 +1,297 @@
+@import "module/style";
+@import "module/header";
+@import "module/footer";
+.details-banner{
+    width: 1050px;
+    height: 520px;
+    margin: 10px auto 0;
+}
+.left-img-box{
+    float: left;
+}
+.left-img-box img{
+    width: 924px;
+    height: 520px;
+    float: left;
+}
+.right-list{
+    float: right;
+    width: 90px;
+    height: 520px;
+    position: relative;
+}
+.bannerImgList{
+    position: absolute;
+    bottom: 0;
+}
+.bannerImgList li{
+    width: 90px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+// .bannerImgList .active img{
+//     border: 1px solid #C69C6D;
+//     width: 88px;
+//     height: 48px;
+// }
+.bannerImgList li img{
+    width: 90px;
+    height: 50px;
+}
+.content-box{
+    width: 1050px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.pro-details-cont {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    // border-bottom: #D8D8D8 solid 1px;
+}
+.details-content-left{
+    float: left;
+    width: 484px;
+}
+.pro-details-title{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 20px;
+    line-height: 28px
+}
+.sub-title {
+    min-height: 17px;
+    line-height: 17px;
+    color: #FF3933;
+}
+.pro-details-label {
+    margin: 20px 0 14px;
+    //可以取消间隙
+    font-size: 0;
+}
+.pro-details-label a {
+    display: inline-block;
+    line-height: 18px;
+    color: #D5BFA7;
+    padding: 0 10px;
+    border: 1px solid #D5BFA7;
+    border-radius: 100px;
+    margin-right: 6px;
+    font-size: 12px;
+}
+.details-constituent {
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+.details-constituent li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #684029;
+}
+.details-constituent li img {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+.pro-details-explain {
+    font-size: 12px;
+    width: 484px;
+    line-height: 2em;
+    min-height: 30px;
+}
+.details-distribution {
+    padding: 12px 0;
+}
+.details-distribution li {
+    height: 34px;
+    line-height: 34px;
+}
+.details-distribution li i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 34px;
+    width: 30px;
+    background-image: url(/img/icon.png);
+    background-repeat: no-repeat;
+    background-size: 240px auto;
+    margin: 0 10px;
+}
+.details-distribution li.distribution-exist i {
+    background-position: -118px -2px;
+    height: 20px;
+    width: 19px;
+}
+.details-distribution li.distribution-sweet i {
+    background: url(/img/sweet.png) center no-repeat;
+    background-size: 22px auto;
+    width: 20px;
+    margin-right: 2px;
+}
+.details-distribution li.distribution-sweet span.sweet-icon i.active {
+    background: url(/img/sweet_02.png) no-repeat center;
+}
+.details-distribution li.distribution-sweet span.sweet-icon i {
+    background: url(/img/sweet_01.png) no-repeat center;
+    height: 20px;
+    width: 20px;
+    margin: 0 7px;
+}
+.details-content-right {
+    width: 500px;
+    margin-left: 65px;
+    position: relative;
+    float: left;
+}
+.details-price {
+    position: absolute;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    z-index: 10;
+    top: 165px;
+    left: 335px;
+    color: #C69C6D;
+}
+.details-price span {
+    font-size: 26px;
+}
+.details-img-box {
+    overflow: hidden;
+    padding-top: 28px;
+    margin-bottom: 24px;
+    min-height: 80px;
+}
+.details-img-box .details-img {
+    float: left;
+    width: 300px;
+    height: 170px;
+    display: block;
+}
+.details-options {
+    margin-top: 8px;
+}
+.fl-left {
+    float: left;
+    margin-left: 28px;
+}
+.details-options li {
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0;
+}
+.details-options li i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background-image: url(/img/icon.png);
+    background-size: 310px 120px;
+    background-repeat: no-repeat;
+    margin-right: 8px; 
+}
+.details-options li.details-options-size i {
+    background-position: -210px -5px;
+}
+.details-options li.details-options-unmber i {
+    background-position: -235px -5px;
+}
+.details-options li.details-options-laid i {
+    background-position: -260px -5px;
+}
+.details-options li.details-options-time i {
+    background-position: -285px -5px;
+}
+.details-Specifications-size,.details-markup{
+    overflow: hidden;
+}
+.details-Specifications-size dt,.details-markup dt{
+    height: 30px;
+    width: 50px;
+}
+.details-Specifications-size dd,.details-markup dd{
+    width: 450px;
+}
+.details-Specifications-size dd ul,.details-markup dd ul{
+    overflow: hidden;
+}
+.details-Specifications-size dd li,.details-markup dd li {
+    float: left;
+    min-width: 60px;
+    height: 30px;
+    margin-left: 15px;
+    text-align: center;
+    color: #7A5844;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.details-Specifications-size dd li a,.details-markup dd li a {
+    display: block;
+    height: 28px;
+    border: 1px solid #e7e0dd;
+    position: relative;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.details-Specifications-size dd li a i,.details-markup dd li a i {
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.details-Specifications-size dd li a.active,.details-markup dd li a.active {
+    border-color: #684029;
+}
+.details-Specifications-size dd li a.active i, .details-Specifications-size-extra dd li a.active i, .details-markup dd li a.active i {
+    background: url(/img/icon.png) no-repeat;
+    background-position: 0px -40px;
+    background-size: 310px 120px;
+}
+.details-markup dt {
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+}
+.details-markup dd li {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+}
+.details-markup dd li a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    overflow: hidden;
+}
+.details-markup li img {
+    width: 90%;
+}
+.details-button {
+    width: 344px;
+    height: 40px;
+    font-size: 13px;
+}
+.details-button button {
+    width: 167px;
+    height: 30px;
+    line-height: 30px;
+}
+.details-but-buy {
+    float: left;
+    background: #F4F4F4;
+    color: #7A5844;
+}
+.details-but-cart {
+    float: right;
+    background: #684029;
+    color: #fff;
+}
+.details-Specifications-size dt, .details-Specifications-size-extra dt, .details-Specifications-size dd, .details-Specifications-size-extra dd, .details-markup dt, .details-markup dd {
+    float: left;
+    line-height: 30px;
+}

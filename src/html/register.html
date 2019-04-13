@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="/css/register.css" />
+</head>
+
+<body>
+    <div id="header-container"></div>
+
+    <div class="login-background" style="height: 833px;">
+            <div class="content-box">
+                <div class="form-login-box" style="right: 100px;">
+                    <div class="login-regi-title">
+                        <h2 class="regi-user active">用户注册</h2>
+                    </div>
+                    <form id="sign-up-form">
+                        <div class="form-content" id="reister-user">
+                            <ul class="reister-user">
+                                <li>
+                                    <input type="text" name="username" autocomplete="off" maxlength="20" placeholder="输入用户名" id="username" >
+                                </li>
+                                <li>
+                                    <input type="text" name="telephone" autocomplete="off" maxlength="11" placeholder="输入手机号码" id="telephone" ><i style="display: none;"></i>
+                                </li>
+                                <li>
+                                    <input type="text" name="email" autocomplete="off" maxlength="20" placeholder="请输入邮箱" id="email"><i style="display: none;"></i>
+                                </li>
+                                <li>
+                                    <input type="password" name="password" autocomplete="off" maxlength="20" placeholder="密码：请输入8～20字符" id="password"><i></i>
+                                </li>
+                                <li><input type="password" name="rePassword" autocomplete="off" maxlength="20" placeholder="确认密码" id="rePassword"><i></i></li>
+                                <li class="err-text"><span></span></li>
+                                <li><input type="submit" class="login-button" value="注册" id="goRegister"></li>
+                            </ul>
+                        </div>
+    
+                        <div class="reading-protocol">
+                            <label><input type="checkbox" checked id="check">&nbsp;已阅读并同意</label>
+                            <a href="javascript:;">21客会员协议</a>和
+                            <a href="javascript:;">隐私保护政策</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <footer id="footer-container"></footer>
+    <script type="text/javascript" src="/lib/requirejs/require.js" data-main="/js/register.js"></script>
+
+
+
+</body>
+
+</html>
